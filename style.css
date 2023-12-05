@@ -1,0 +1,55 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+
+nav{
+    margin: 0;
+    padding: 1em;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    background-color: whitesmoke;
+}
+
+#blog-list{
+    padding: 10px;
+}
+
+form{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: grid;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+textarea{
+    resize: none;
+}
+
+input#post-title, textarea#post-body {
+    margin-bottom: 10px;
+}
+
+
+
+button{
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1rem;
+    border: 1px solid black;
+}
